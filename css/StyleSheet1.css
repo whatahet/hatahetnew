@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+
+.NavBar
+{
+    position: fixed;
+    width: 100%;
+    color:#fff;
+    background-color:#f44336;
+
+    text-align: left;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    font-size: 20px;
+    font-family: sans-serif;
+    overflow: hidden;
+    display: block;
+}
+
+.NavItem
+{
+    padding:14px 24px;
+    margin: 2px;
+    float:left;
+    width:auto;
+    display:block;
+    color: white;
+    white-space: normal;
+    text-decoration: none;
+}
+
+.NavItem:hover
+{
+    color:#000;
+    background-color:#fff;
+}
+
+.Header{
+    padding: 140px 16px ;
+    background-color: #f44336;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+
+}
+
+.StartPage
+{
+
+    margin: 16px;
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+}
+.Template
+{
+
+    font-size: 24px;
+    color: white;
+}
+
+.GetStarted
+{
+    color: #ffffff;
+    background-color: black;
+    padding: 14px 24px;
+    margin-top: 16px;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.GetStarted:hover
+{
+    background-color: darkgrey;
+    color: black;
+    cursor: pointer;
+
+}
+.Section-1
+{
+    margin-left: auto;
+    padding: 50px;
+    background-color: ivory;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+.main-container{
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Section-2
+{
+    padding: 50px;
+    background-color: ivory;
+
+
+}
+.Section-2 .main-container{
+    display: flex;
+}
+
+.anchor-image{
+    font-size: 150px;
+    color: #f44336;
+
+
+}
+.coffee-image{
+    font-size: 150px;
+    color: #f44336;
+
+}
+.LeftHalf
+{
+    padding: 20px 20px;
+    flex-basis: 66.666%;
+
+
+
+}
+.RightHalf
+{
+
+    flex-basis: 33.333%;
+    padding: 20px 50px;
+
+
+}
+.Header2
+{
+    font-size: 36px;
+    margin: 10px;
+}
+
+p
+{
+    color: grey;
+}
+
+Section#Second
+{
+    background-color: lightgrey;
+}
+
+#anchor
+{
+    display: block;
+
+    float: right;
+
+}
+/*#coffee*/
+/*{*/
+    /*display: block;*/
+
+/*}*/
+
+.Qoute
+{
+    margin: auto;
+    padding: 70px 20px;
+    color: white;
+    background-color: grey;
+
+    font-size: 20px;
+    text-align: center;
+
+}
+footer
+{
+    padding: 80px 20px;
+}
+#PoweredBy
+{
+    text-align: center;
+}
+#Media
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 5px;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin: 5px;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    margin: 5px;
+}
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: 5px;
+}
+
+@media screen and (max-width: 1200px){
+    .main-container{
+        max-width: 860px;
+    }
+}
